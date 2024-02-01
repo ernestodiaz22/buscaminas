@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buscaminas.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>   
+    <script src="buscaminas.js"></script>
+    <title>Buscaminas</title>
+</head>
+<body>
+    <form id="start">
+        <label for="columnas">columnas</label>
+        <input type="number" id="columnas">
+        <label for="filas">Filas</label>
+        <input type="number" id="filas">
+        <input type="button" value="Crear tablero" id="crearT">
+    </form>
+    <p id="infoP"></p>
+    <div id="divTablero">
+    </div>
+    <input type="button" value="Reiniciar juego" id="restart">
+</body>
+</html>

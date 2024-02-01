@@ -1,0 +1,41 @@
+#start {
+    text-align: center;
+}
+input[type='button']{
+    display: block;
+    margin: auto;
+    margin-top:20px;
+}
+#divTablero table, table tr, table td{
+    border-collapse: collapse;
+}
+#estadoJuego{
+    text-align: center;
+}
+#restart{
+    display: none;
+    margin:auto ;
+}
+#divTablero {
+    background-color: #bdbdbd;
+    height: auto;
+    width: auto;
+    margin: auto;
+    max-width: 80%;
+}
+#divTablero table {
+    margin: auto;
+    background-color: #bdbdbd;
+}
+#divTablero td {
+    margin: auto;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border:black 2px solid;
+    color: red;
+}
+#infoP{
+    text-align: center;
+}
+
